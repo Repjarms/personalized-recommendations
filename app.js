@@ -34,7 +34,7 @@ var places = JSON.parse(fs.readFileSync('data/places.json', 'utf8'));
 var publicCorpusUsername = '30ac56d5-0f6e-43dc-9282-411972b2e11f';
 
 var conceptInsights = watson.concept_insights({
-  version: 'v1',
+  version: 'v2',
   username: username,
   password: password
 });
